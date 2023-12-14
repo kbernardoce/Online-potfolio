@@ -1,0 +1,132 @@
+.Hero { 
+    background-image: url(./Images/23.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 100px;
+}
+
+.Hero-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 300px;
+    border-radius: 50%;
+}
+
+.Hero-descript {
+    padding-left: 50px;
+    width: 50%;
+}
+
+.Hero-descript > p {
+    width: auto;
+    padding-right: 150px;
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(214, 208, 196);
+}
+
+.Hero-descript > h1 {
+    font-family: 'Arvo', serif;
+    color: rgb(228, 222, 214)
+}
+
+.Divider {
+    display: grid;
+    grid-template: 50% /50% 50%;
+}
+
+.Skills > h2 {
+    font-family: 'Arvo', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    margin-bottom: 0%;
+}
+
+.About-me > h2 {
+    font-family: 'Arvo', serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    margin-bottom: 0%;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+    padding: 20px;
+    border: 0px;
+    padding-top: 0%;
+    margin-top: 0%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+hr {
+    width: 25%;
+    border: dotted 6px cadetblue;
+    border-bottom: none;
+}
+
+.Contact-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Contact-me , h2 {
+    font-family: 'Arvo', serif;
+}
+
+.Contact-me , p {
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 50px;
+}
+
+.btn { 
+    background-color: rgb(82, 135, 153) ;
+    color: wheat;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Arvo', serif; 
+    margin-bottom: 25px;
+}
+
+.Practice-projects {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 35px;
+    gap: 50px;
+}
+
+
+.footing {
+    background-image: url(./Images/23.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 100px;
+}
+
+
+.logo {
+    height: 50px;
+}
+
+.logo-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.Rights {
+    text-align: center;
+    color: white;
+}
